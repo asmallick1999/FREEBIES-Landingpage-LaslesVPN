@@ -1,0 +1,396 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: #0B132A !important;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+p {
+    color: #4F5665;
+}
+
+
+
+/* Nav Bar  -----------------------------*/
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.navMenu a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #4F5665;
+}
+
+.navButton button {
+    margin: 0 10px;
+}
+
+.navButton button {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.navButton button {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 7px 25px;
+}
+
+.navButton .navBtn1 {
+    border-radius: 23.4913px;
+}
+
+.navButton .navBtn2 {
+    color: #F53855;
+    border: 1px solid #F53855;
+    border-radius: 23.4913px;
+}
+
+.navButton button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+/* Header Main  -----------------------------*/
+
+.headerMain {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerRight {
+    width: 50%;
+}
+
+.headerRight img {
+    width: 100%;
+}
+
+
+.headerLeft button {
+    background-color: #F53838;
+    border: none;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 16px 14px -5px rgb(245 56 56 / 40%);
+    margin: 30px 0;
+}
+
+
+.headerLeft h1 {
+    font-size: 2.2rem;
+}
+
+.headerLeft span {
+    /* color: black !important; */
+    font-weight: bold;
+}
+
+
+.headerBottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.headerInfo {
+    display: flex;
+    gap: 10px;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.headerInfo img {
+    width: 40px;
+}
+
+#headerInfo-middle {
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    padding: 0 70px;
+}
+
+.headerInfo div h4 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.headerInfo div p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* Features  -----------------------------*/
+
+.Features {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FeaturesLeft {
+    width: 50%;
+}
+
+.FeaturesLeft img {
+    width: 75%;
+}
+
+.FeaturesRight ul {
+    list-style: none;
+    color: #4F5665;
+
+}
+
+.FeaturesRight ul li {
+    margin: 15px 0;
+}
+
+/* ChoosePlan  -----------------------------*/
+
+
+.choosePlan {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.choosePlanTop {
+    text-align: center;
+}
+
+.choosePlanBottomMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+
+.choosePlanBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.choosePlanBottom1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choosePlanBottom1 .img {
+    width: 40%;
+}
+
+.choosePlanBottom1 ul {
+    list-style: none;
+    color: #4F5665;
+    margin-right: 30px !important;
+}
+
+.choosePlanBottom1 ul li {
+    margin: 15px 0;
+
+}
+
+.choosePlanBottom2 {
+    text-align: center;
+}
+
+.choosePlanBottom2 button {
+    color: #F53855;
+    border: 2px solid #F53855;
+    border-radius: 23.4913px;
+    background-color: white;
+    font-weight: bold;
+    padding: 9px 45px;
+    cursor: pointer;
+
+}
+
+.choosePlanBottom2 .btn3 {
+    background-color: #F53838;
+    color: #ffffff;
+    box-shadow: 0px 16px 14px -5px rgb(245 56 56 / 40%);
+}
+
+/* GlobalNetwork  -----------------------------*/
+
+
+.globalNetwork {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.globalNetworkTop {
+    text-align: center;
+}
+
+.globalNetworkImg {
+    margin-top: 5rem;
+}
+
+.globalNetworkImg img {
+    width: 900px;
+}
+
+.globalNetworkBottom {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.globalNetworkBottom img {
+    width: 170px;
+}
+
+
+/* Testimonials  -----------------------------*/
+
+.Testimonials {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.testimonialsTop {
+    text-align: center;
+}
+
+.testimonialBottom {
+    margin-top: 3rem;
+}
+
+.testimonialProfileMain {
+    display: flex;
+    gap: 50px;
+    overflow-x: scroll;
+
+}
+
+.testimonialProfile {
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 15px 20px 0 20px !important;
+    width: 30%;
+}
+
+
+.profileTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.profileTop img {
+    width: 50px;
+    height: 50px;
+}
+
+.profileDetails h3 {
+
+    margin: 0 15px;
+
+}
+
+.profileDetails p {
+    margin: 0 15px;
+    color: #4F5665;
+}
+
+
+/* Subscribe  -----------------------------*/
+
+.subscribe {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subscribeRight button {
+    background-color: #F53838;
+    border: none;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 16px 14px -5px rgb(245 56 56 / 40%);
+    margin: 30px 0;
+}
+
+/* Footer  -----------------------------*/
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo img{
+    width: 10%;
+    margin: 7px 20px;
+}
+.copyrightP{
+    color: #a0a0a0;
+}
+
+.footerRight {
+    display: flex;
+    gap: 50px;
+}
